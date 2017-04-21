@@ -1,0 +1,59 @@
+/* pages/answer/answer.wxss */
+page {
+  height: 100%;
+  background-size: 100%;
+}
+.weui-flex{
+    border-bottom: 1rpx dotted rgba(243,149,20,0.7);
+}
+.tit{
+    text-indent: 1em;
+    background: #fff;
+    color: #000;
+    text-shadow: 1rpx 1rpx #ccc;
+    letter-spacing: 0.2em;
+}
+.num {
+  text-indent: 1.5em;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.num-bg {
+  background: linear-gradient(to right, RGBA(237, 72, 151, 0.5), RGBA(36, 172, 225, 0.5));
+}
+
+.radio {
+  line-height: 77rpx;
+  font-size: 1.1em;
+}
+
+.txt {
+  /*padding-left:20rpx;*/
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 45rpx;
+  color: #000;
+}
+
+.aa {
+  background: linear-gradient(to right, RGBA(36, 172, 225, 0.5), RGBA(201, 224, 51, 0.5));
+}
+
+.bb {
+  background: linear-gradient(to right, RGBA(201, 224, 51, 0.5), RGBA(250, 221, 37, 0.5));
+}
+
+.cc {
+  background: linear-gradient(to right, RGBA(250, 221, 37, 0.5), RGBA(237, 72, 151, 0.5));
+}
+
+.dd {
+  background: linear-gradient(to right, RGBA(237, 72, 151, 0.5), RGBA(36, 172, 225, 0.5));
+}
+.text{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background: #fff;
+}

@@ -1,0 +1,47 @@
+<view class="container">
+
+  <!--头像 名称start -->
+  <view class="header">
+    <view class="my-face">
+      <image src="{{userInfo.avatarUrl}}"></image>
+    </view>
+    <view class="my-name">{{userInfo.nickName}}</view>
+  </view>
+
+  <!--头像 名称end -->
+
+  <!--成绩统计图 start-->
+  <view class="chart"></view>
+
+  <!--成绩统计图 end-->
+
+  <!--个人信息 start-->
+  <view class="info">
+    <view class="info-box">
+      <view class="info-icon info-name"></view>
+      <view class="info-txt">
+        落款人
+      </view>
+    </view>
+    <view class="info-box">
+      <view class="info-icon info-school"></view>
+      <view class="info-txt">
+        上海二校
+      </view>
+    </view>
+    <view class="info-box">
+      <view class="info-icon info-lesson"></view>
+      <view class="info-txt">
+        H5
+      </view>
+    </view>
+    <view class="info-box">
+      <view class="info-icon info-grade"></view>
+      <view class="info-txt">
+        13期
+      </view>
+    </view>
+  </view>
+
+  <!--个人信息 end-->
+</view>

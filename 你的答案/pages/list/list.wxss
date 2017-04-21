@@ -1,0 +1,18 @@
+/* pages/list/list.wxss */
+page {
+  height: 100%;
+  background-size: 100%;
+}
+.weui-form-preview{
+    margin-bottom: 25px;
+}
+.result{
+  font-size: 60rpx;
+  padding-top: 35rpx;
+  padding-bottom: 35rpx;
+  letter-spacing: 20rpx;
+  text-align: center;
+  font-family: "楷体";
+  font-weight: blod;
+  text-shadow: 2rpx 2rpx #ccc; 
+}

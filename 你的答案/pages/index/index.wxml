@@ -1,0 +1,59 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="page__bd page__bd_spacing">
+
+    <!--LOGO部分 start-->
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="logo-box"></view>
+      </view>
+    </view>
+
+    <!--LOGO部分 end-->
+
+    <!--按钮导航 start-->
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="nav-box">
+          <view class="info">
+            <button class="yuan y-info" bindtap="info"></button>
+          </view>
+          <view class="txt">我的信息</view>
+        </view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="nav-box">
+          <view class="qrcode">
+            <button class="yuan y-qrcode" bindtap="scan"></button>
+          </view>
+          <view class="txt">扫卷开考</view>
+        </view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="nav-box">
+          <view class="list">
+            <button class="yuan y-list" bindtap="list"></button>
+          </view>
+          <view class="txt">已考试题</view>
+        </view>
+      </view>
+    </view>
+
+    <!--按钮导航 end-->
+  </view>
+
+  <!--底部信息 start-->
+  <view class="foot-box">
+    <view class="prev-result">
+      <view class="prev-res">上次考试成绩</view>
+      <view class="prev-num">
+        <view class="prev-icon prev-a"> </view>
+        <view class="prev-num-left">90</view>
+        <view class="prev-num-right">分</view>
+      </view>
+    </view>
+  </view>
+
+  <!--底部信息 end-->
+</view>

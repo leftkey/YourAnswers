@@ -1,0 +1,36 @@
+/* pages/register/register.wxss */
+page {
+  height: 100%;
+  /*background: #44cd6c;*/
+  background: url("https://www.hounanxun.com/xcx/reg/App-Bg.jpg");
+  background-size: 100%;
+}
+.reg-box{
+  padding:50rpx;
+}
+.container {
+  height: 100%;
+  position: relative;
+}
+.weui-cells{
+  background-color: transparent;
+}
+.page-logo{
+width:200rpx;
+height:150rpx;
+background:url("https://www.hounanxun.com/xcx/reg/js.png") no-repeat;
+background-size: 100%;
+margin: 0 auto;
+}
+.page-reg{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size:70rpx;
+}
+.pickbox{
+  background: rgba(111,111,111,0.1);
+}
+.pickfont{
+  color:rgba(88,88,88,0.3);
+}

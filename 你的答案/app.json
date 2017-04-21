@@ -1,0 +1,24 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/register/register",
+    "pages/info/info",
+    "pages/answer/answer",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#44cf6f",
+    "navigationBarTitleText": "答题卡",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#44cf6f"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

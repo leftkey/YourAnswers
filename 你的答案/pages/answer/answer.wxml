@@ -1,0 +1,158 @@
+<view class="page">
+  <!--答题标题  start-->
+  <view class="weui-panel">
+    <view class="weui-panel__bd">
+      <view class="weui-media-box weui-media-box_text">
+        <view class="weui-media-box__title_in-text">
+        XXXX期XX月XX日XXXXXXXXXX的综合情况测试
+        </view>
+        <view class="weui-media-box__info">
+          <view class="weui-media-box__info__meta">总分100分</view>
+          <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">2017-04-06</view>
+          <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">答题人:谁谁谁</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!--<view class="box">
+</view>-->
+
+  <!--答题标题  end-->
+
+  <!--单选 start-->
+  <view class="tit">
+    单选题（每题5分 共30分）
+  </view>
+
+  <!--第一题-->
+  <radio-group>
+    <view class="weui-flex">
+      <view class="weui-flex__item num-bg">
+        <view class="num">
+          1、
+        </view>
+      </view>
+      <view class="weui-flex__item aa txt">
+        <label class="radio">
+          A
+          <radio value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item bb txt">
+        <label class="radio">
+          B
+          <radio value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item cc txt">
+        <label class="radio">
+          C
+          <radio value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item dd txt">
+        <label class="radio">
+          D
+          <radio value="" checked="" />
+        </label>
+      </view>
+    </view>
+  </radio-group>
+
+  <!--第二题-->
+  <radio-group>
+    <view class="weui-flex">
+      <view class="weui-flex__item num-bg">
+        <view class="num">
+          2、
+        </view>
+      </view>
+      <view class="weui-flex__item aa txt">
+        <label class="radio">
+          A
+          <radio value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item bb txt">
+        <label class="radio">
+          B
+          <radio value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item cc txt">
+        <label class="radio">
+          C
+          <radio value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item dd txt">
+        <label class="radio">
+          D
+          <radio value="" checked="" />
+        </label>
+      </view>
+    </view>
+  </radio-group>
+
+  <!--单选 end-->
+
+  <!--复选 start-->
+  <view class="tit">
+    复选题（每题5分 共30分）
+  </view>
+
+  <!--第一题-->
+  <checkbox-group>
+    <view class="weui-flex">
+      <view class="weui-flex__item num-bg">
+        <view class="num">
+          1、
+        </view>
+      </view>
+      <view class="weui-flex__item aa txt">
+        <label class="checkbox">
+          A
+          <checkbox value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item bb txt">
+        <label class="checkbox">
+          B
+          <checkbox value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item cc txt">
+        <label class="checkbox">
+          C
+          <checkbox value="" checked="" />
+        </label>
+      </view>
+      <view class="weui-flex__item dd txt">
+        <label class="checkbox">
+          D
+          <checkbox value="" checked="" />
+        </label>
+      </view>
+    </view>
+  </checkbox-group>
+
+  <!--复选 end-->
+
+  <!--简答题 start-->
+  <view class="tit">
+    简答题（每题5分 共30分）
+  </view>
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <view class="num">
+        1、
+      </view>
+    </view>
+    <view class="weui-flex__item">
+      <textarea bindblur="textChange" maxlength="-1" class="text" placeholder="填了总比空着好..." />
+    </view>
+  </view>
+
+  <!--简答题 end-->
+</view>

@@ -1,0 +1,134 @@
+page {
+  height: 100%;
+  background: #44cd6c;
+}
+
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.logo-box {
+  height: 425rpx;
+  background: url("https://www.hounanxun.com/xcx/index/logo.png") no-repeat center;
+  background-size: 50%;
+}
+
+.nav-box {
+  height: 250rpx;
+}
+
+.info {
+  height: 200rpx;
+}
+
+.y-info {
+  background: #17aa4c url("https://www.hounanxun.com/xcx/index/info.png") no-repeat 30rpx 25rpx;
+  background-size: 70%;
+}
+
+.txt {
+  height: 50rpx;
+  color: #e3ead1;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.qrcode {
+  height: 200rpx;
+}
+
+.y-qrcode {
+  background: #17aa4c url("https://www.hounanxun.com/xcx/index/qrcode.png") no-repeat 22rpx 25rpx;
+  background-size: 75%;
+}
+
+.y-qrcode:hover {
+  background-color: #17aaaa;
+}
+
+.y-list:hover {
+  background-color: #17aaaa;
+}
+
+.y-info:hover {
+  background-color: #17aaaa;
+}
+
+.list {
+  height: 200rpx;
+}
+
+.y-list {
+  background: #17aa4c url("https://www.hounanxun.com/xcx/index/result.png") no-repeat 18rpx 25rpx;
+  background-size: 80%;
+}
+
+.yuan {
+  width: 185rpx;
+  height: 185rpx;
+  border-radius: 50%;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+.foot-box {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.prev-result {
+  width: 600rpx;
+  height: 350rpx;
+  margin: 0 auto;
+  /*background: #11e;*/
+}
+
+.prev-res {
+  color: #e3ead1;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35rpx;
+}
+
+.prev-icon {
+  float: left;
+  width: 150rpx;
+  height: 200rpx;
+  transform: rotate(-20deg);
+}
+
+.prev-a {
+  background: url("https://www.hounanxun.com/xcx/index/a.png") no-repeat;
+  background-size: 100%;
+}
+
+.prev-b {
+  background: url("https://www.hounanxun.com/xcx/index/b.png") no-repeat;
+  background-size: 100%;
+}
+
+.prev-c {
+  background: url("https://www.hounanxun.com/xcx/index/c.png") no-repeat;
+  background-size: 100%;
+}
+
+.prev-num-left {
+  margin-left: 50rpx;
+  color: red;
+  height: 220rpx;
+  font-size: 180rpx;
+  font-family: fantasy;
+  float: left;
+}
+
+.prev-num-right {
+  width: 100rpx;
+  height: 60rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  float: left;
+  margin-top: 160rpx;
+}
